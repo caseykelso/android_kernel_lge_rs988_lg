@@ -19,11 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from h815 device
-$(call inherit-product, device/lge/h850/device.mk)
+$(call inherit-product, device/lge/rs988/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := h850
-PRODUCT_NAME := full_h850
+PRODUCT_DEVICE := rs988
+PRODUCT_NAME := full_rs988
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG-H850
+PRODUCT_MODEL := LG-RS988
 PRODUCT_MANUFACTURER := LGE
